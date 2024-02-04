@@ -5,3 +5,14 @@ label {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
 }
+
+body,
+textarea {
+  background-color: #0b0e14;
+  color: #bfbdb6;
+}
+
+textarea {
+  border-color: #6c738033;
+  outline: none;
+}
