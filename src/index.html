@@ -9,10 +9,14 @@
     <script src="script.js" type="module" defer></script>
   </head>
   <body>
-    <input type="checkbox" id="use-slash-x" />
-    <label for="use-slash-x">Use <code>\x</code></label>
+    <main>
+      <textarea id="input" cols="30" rows="10"></textarea>
+      <textarea id="output" cols="30" rows="10" readonly></textarea>
 
-    <textarea id="input" cols="30" rows="10"></textarea>
-    <textarea id="output" cols="30" rows="10" readonly></textarea>
+      <div>
+        <input type="checkbox" id="use-slash-x" />
+        <label for="use-slash-x">Use <code>\x</code></label>
+      </div>
+    </main>
   </body>
 </html>

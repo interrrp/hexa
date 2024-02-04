@@ -24,3 +24,19 @@ code {
   padding: 4px;
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+main {
+  display: flex !important /* Override normalize.css' display: block */;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 48rem;
+}
