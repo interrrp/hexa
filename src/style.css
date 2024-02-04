@@ -18,3 +18,9 @@ textarea {
   resize: none;
   padding: 16px;
 }
+
+code {
+  background-color: #47526633;
+  padding: 4px;
+  border-radius: 4px;
+}
