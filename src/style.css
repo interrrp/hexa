@@ -14,4 +14,7 @@ textarea {
 textarea {
   border-color: #6c738033;
   outline: none;
+  border-radius: 4px;
+  resize: none;
+  padding: 16px;
 }
