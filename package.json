@@ -1,0 +1,14 @@
+{
+  "name": "hexa",
+  "version": "0.1.0",
+  "author": "interrrp <int@addictedto.coffee>",
+  "license": "MIT",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.0.12"
+  }
+}
